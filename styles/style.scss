@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Angel Rhapsody";
+  src:
+      url("fonts/title-fonts.woff2") format("woff2")
+}
+
+:root {
+  --bs-primary-rgb: 219, 159, 106;
+  --bs-dark-rgb: 18, 16, 12;
+  --bs-secondary-rgb: 42, 39, 34;
+}
+
+body {
+  padding-top: 150px;
+}
+
+.display-1, .h2 {
+  font-family: "Angel Rhapsody";
+}
+
+.btn-primary {
+  --bs-btn-bg: rgba(var(--bs-primary-rgb));
+  --bs-btn-border-color: 0, 0, 0;
+  --bs-btn-hover-bg: rgba(var(--bs-dark-rgb), 0.5);
+  --bs-btn-color: rgba(var(--bs-dark-rgb));
+  --bs-btn-font-weight: bold;
+}
+
+form {}
+
+.navbar {
+  border-radius: var(--bs-border-radius);
+}
+
